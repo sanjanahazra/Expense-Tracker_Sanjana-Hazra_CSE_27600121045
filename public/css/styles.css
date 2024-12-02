@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+    font-weight: bold;
+  }
+  
+
+  .nav-links a:hover {
+    color: #512da8;
+  }
+
+  /* Section Styling */
+  section {
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form input, form select, form button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #512da8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .summary-card {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width:100%;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #512da8;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* view expense */
+
+  .add-expnse .btn{
+      /* margin-left: 40px;
+      padding: 10px 20px; */
+      background-color: #512da8;
+      color: white;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      align-items:center;
+  }
+
+  .filter{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+
+  .btn-warning {
+    display: inline-block;
+    background-color: #ffc107; /* Default warning background color */
+    color: #000; /* Default warning text color */
+    border: 1px solid #ffc107;
+  }
+  
